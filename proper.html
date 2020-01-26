@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>properties of CSS</title>
+        <style>{
+            h1{
+                position: relative;
+            }
+            h1::after{
+                content: "";
+                width:60px;
+                height: 25px;
+                border-bottom: 1px solid red;
+                position: absolute;
+                bottom: -11px;
+                left:0;
+            }
+            h1::first-letter{
+                color:rgb(0, 4, 255);
+                font-size: 45px;
+            }
+        
+
+        }
+    </style>
+    </head>
+    <body>
+        <h1>This is heading tag.</h1>
+        <h1 class="primary-heading" id="heading" ></h1>
+        <h1 ></h1>
+        <div class="position">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellendus maiores culpa similique eligendi molestias, praesentium distinctio explicabo a at quia soluta veniam sed eaque, fugiat quam ut fugit! Earum.</p>
+         
+        </div>
+    </body>
+</html>

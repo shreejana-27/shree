@@ -1,0 +1,212 @@
+/* Selector in css */
+/* universal selector */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+  background-image:
+  url(../images/banner.jpg);
+  background-size: cover;
+  height: 90vh;
+  color: white;
+  clip-path: polygon(0 0, 100% 0%, 100% 88%, 0% 100%);
+}
+.logo {
+  font-size: 30px;
+  float: left;
+  width: 20%;
+  margin-left: 30px;
+}
+#navbar ul {
+  float: left;
+  width: 70%;
+}
+#navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.logo span {
+  font-size: 40px;
+  color: rgb(48, 247, 81);
+}
+.clearfix {
+  clear: both;
+}
+.box-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box-content h1{
+  font-size: 45px;
+  animation: animateText 1s linear;
+}
+.btn{
+  background-color: #fff;
+  border: none;
+  padding:8px 25px;
+  border-radius: 100px;
+  text-transform: capitalize;
+  cursor: pointer;
+  display: block;
+  margin:10px auto;
+  animation: animateButton 1s linear;
+}
+@keyframes animateButton{
+  0%{
+    transform: scale(0);
+    opacity:0;
+  }
+  50%{
+    transform:scale(0.5);
+    opacity:0.5;
+  }
+  100%{
+    transform:scale(1);
+    opacity: 1;
+  }
+}
+@keyframes animateText{
+  0%{
+    transform: translateY(-200px);
+    opacity:0;
+  }
+  50%{
+    transform: translateY(-100px);
+    opacity: 0.5;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity:1;
+  }
+}
+  /* product starts here */
+  #product h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    background-image: linear-gradient(to right botton,rgb(255, 255, 255) ,#000000);
+    color:transparent;
+    -webkit-background-clip: text;
+
+}
+.row{
+  width:1110px;
+  margin: 15px auto;
+}
+.card{
+    width:25%;
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    float:left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card-img-1{
+    background-image:url(../images/banner.jpg);
+    height:95px;
+    width:100%;
+    background-size: cover;
+    box-sizing: content-box;
+
+}
+.card-img-2{
+  background-image:url(../images/drop-3698073_1920.jpg);
+  height:90px;
+  width:100%;
+  background-size: cover;
+}
+.card-body ul li{
+  list-style:none;
+  text-align: center;
+  height: 15px;
+}
+.card-body{
+  padding:10px;
+
+}
+#product.btn{
+  background-color: blue;
+  color:#fff;
+}
+.btn:hover,
+#product.btn:hover{
+  background-color: crimson;
+  transition:1s all;
+}
+#form{
+  background-color: darkseagreen;
+  padding:50px;
+}
+#form h1{
+  text-align: center;
+  color:rgb(138, 117, 117);
+  font-size: 40px;
+}
+form{
+  width: 50%;
+  margin-left:auto;
+  margin-right: auto;
+}
+input,
+label{
+  display: block;
+  color: #fff;
+  width: 100%;
+}
+input{
+  padding: 7px 12px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.col-1,
+.col-2,
+.col-3{
+  float:left;
+  width: 32%;
+ 
+}
+#footer{
+  margin-top:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.col-1 ul li ,
+.col-2 ul li{
+  list-style: none;
+  text-decoration: none;
+}
+.col-1 ul li a,
+.col-2 ul li a{
+  color:rgb(0, 128, 68);
+  text-decoration: none;
+}
+.col-1 ul li a{
+  color:black ;
+}
+.col-2 ul li a{
+  color:rgb(0, 183, 255);
+
+}
+.fa-twitter{
+  color:blue;
+}
+.fa-instragram{
+  color:rgb(0, 77, 128);
+
+}
+
+
+

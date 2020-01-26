@@ -1,0 +1,26 @@
+:root{
+    --primary-color:rgb(1, 141, 184);
+    --color-white:white;
+
+}
+/*navbar section strat to declear css variable*/
+#navbar{
+    background-color: var(--primary-color);
+}
+#navbar.navbar-brand,
+#navbar.nav-link{
+    color:var(--color-white);
+
+}
+
+.navbar-nav{
+    margin-left: 80px;
+}
+/*navbar section end*/
+.carousel-item{
+    height:600px;
+}
+.card-img,
+.card-img-top{
+    height:320px;
+}

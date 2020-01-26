@@ -1,0 +1,43 @@
+/*@media(max-width:1200px){
+    body{
+        background-color: red;
+    }
+a{
+    font-size: 20px;
+}
+}
+@media(max-width:900px){
+    body{
+        background-color: blueviolet;
+    }
+    a{
+        font-size:16px ;
+    }
+}
+@media(max-width:600px){
+    body{
+        background-color: chartreuse;
+    }
+    a{
+        font-size: 10px;
+    }
+}
+*/
+@media(min-width:600px){
+    body{
+        background-color: red;
+    }
+
+}
+@media(min-width:900px){
+    body{
+        background-color: blueviolet;
+    }
+   
+}
+@media(min-width:1200px){
+    body{
+        background-color: chartreuse;
+    }
+    
+}

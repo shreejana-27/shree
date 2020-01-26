@@ -1,0 +1,56 @@
+#border{
+    border-color: brown;
+    border-width: 25px;
+    border-style: solid;
+    height: 200px;
+    width:200px;
+    border:3px solid;
+    animation: mymove 5s infinite;
+    
+}
+@keyframes mymove{
+    50%{
+        border-color: cadetblue;
+    }
+    
+}
+.outline{
+    outline:1px solid;
+    outline-offset: 2px;
+}
+#overflow{
+    background-color: blueviolet;
+    color: #fff;
+    height: 150px;
+    width: 150px;
+    overflow: scroll;
+
+}
+#box{
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 109px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(210, 30, 90, 0.466);
+    animation: colorChange 1s linear infinite;
+    animation-duration :normal;
+    transition: 1s linear;
+}
+@keyframes colorChange{
+    0%{
+        background-color: darkgreen;
+        transform:translateX(0px);
+        
+   
+    }
+    50%{
+        background-color: darkslategray;
+       transform:translateX(100px);
+    }
+    100%{
+        background-color: green;
+        transform:translateX(200px);
+    }
+
+}
